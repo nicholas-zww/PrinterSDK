@@ -4,7 +4,7 @@
 # Created Date: 2023-02-16 21:28:46
 # Author: WenWei
 # -----
-# Last Modified: 2023-02-16 22:02:12
+# Last Modified: 2023-02-16 22:13:31
 # Modified By: WenWei
 # -----
 # Copyright (c) 2023 WenWei.
@@ -16,7 +16,7 @@
 ###
 import setuptools
 
-__VERSION__ = "0.0.1"
+__VERSION__ = "0.0.2"
 
 with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
