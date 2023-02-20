@@ -4,7 +4,7 @@
 # Created Date: 2023-02-16 21:28:46
 # Author: WenWei
 # -----
-# Last Modified: 2023-02-16 22:13:31
+# Last Modified: 2023-02-20 13:00:06
 # Modified By: WenWei
 # -----
 # Copyright (c) 2023 WenWei.
@@ -40,7 +40,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
-    package_dir = {"": "src"},
-    packages = setuptools.find_packages(where="src"),
+    package_dir = {"": "PrinterSDK"},
+    packages = setuptools.find_packages(where="PrinterSDK"),
     python_requires = ">=3.6",
 )

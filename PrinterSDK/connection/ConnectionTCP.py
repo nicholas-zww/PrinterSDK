@@ -4,7 +4,7 @@
 # Created Date: 2023-02-18 21:29:20
 # Author: WenWei
 # -----
-# Last Modified: 2023-02-18 22:06:32
+# Last Modified: 2023-02-20 13:14:52
 # Modified By: WenWei
 # -----
 # Copyright (c) 2023 WenWei.
@@ -16,7 +16,7 @@
 ###
 import ssl
 import socket
-from ConnectionBase import ConnectionBase
+from .ConnectionBase import ConnectionBase
 from logging import getLogger
 
 class ConnectionTcp(ConnectionBase):
